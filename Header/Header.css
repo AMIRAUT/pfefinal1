@@ -1,0 +1,69 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6f61;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav ul li {
+    margin-right: 20px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .nav ul li a:hover {
+    color: #ff6f61;
+  }
+  
+  .search input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-profile a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    position: relative;
+  }
+  
+  .user-profile a:hover {
+    color: #ff6f61;
+  }
+  
+  .user-profile a#cart::after {
+    content: '(0)';
+    position: absolute;
+    top: -10px;
+    right: -15px;
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+  }
+  

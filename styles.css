@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav ul li {
+    margin-right: 20px;
+  }
+  
+  .search input {
+    padding: 5px;
+  }
+  
+  .user-profile a {
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
